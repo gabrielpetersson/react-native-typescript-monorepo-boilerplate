@@ -6,3 +6,5 @@
 .vscode
 **/.expo*
 **/*.log
+
+app/android/app/src/main/java/com/app/generated/

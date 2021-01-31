@@ -22,6 +22,7 @@
     "app": "yarn workspace app start",
     "android": "yarn workspace app android",
     "iphone": "yarn workspace app iphone",
+    "web": "yarn workspace app web",
     "be:dev": "yarn workspace server dev",
     "be:start": "yarn workspace server start",
     "start": "yarn workspace server build && yarn workspace server start"
