@@ -1,0 +1,8 @@
+
+*.hprof
+.idea
+**/node_modules
+**/build
+.vscode
+**/.expo*
+**/*.log
