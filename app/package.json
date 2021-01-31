@@ -5,7 +5,8 @@
   "scripts": {
     "android": "react-native run-android",
     "ios": "react-native run-ios",
-    "web": "expo start --web",
+    "expo": "expo start",
+    "expo:web": "expo start --web",
     "start": "react-native start",
     "test": "jest"
   },

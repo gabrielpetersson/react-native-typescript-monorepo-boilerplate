@@ -20,12 +20,12 @@
   "private": true,
   "scripts": {
     "app": "yarn workspace app start",
+    "expo": "yarn workspace app expo",
     "android": "yarn workspace app android",
-    "iphone": "yarn workspace app iphone",
+    "ios": "yarn workspace app ios",
     "web": "yarn workspace app web",
     "be:dev": "yarn workspace server dev",
-    "be:start": "yarn workspace server start",
-    "start": "yarn workspace server build && yarn workspace server start"
+    "start": "yarn workspace server start"
   },
   "browserslist": {
     "production": [

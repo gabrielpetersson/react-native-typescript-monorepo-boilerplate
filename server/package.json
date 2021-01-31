@@ -9,7 +9,7 @@
     "start": "node ./build/index.bundle.js",
     "watch": "cross-env NODE_ENV=development webpack -w",
     "build:dev": "cross-env NODE_ENV=development webpack",
-    "start:dev": "yarn build:dev && yarn concurrently -n watch,be \"nodemon ./build/index.bundle.js\" \"yarn watch\""
+    "dev": "yarn build:dev && yarn concurrently -n watch,be \"nodemon ./build/index.bundle.js\" \"yarn watch\""
   },
   "author": "",
   "license": "ISC",
@@ -18,11 +18,14 @@
     "@babel/plugin-proposal-class-properties": "^7.12.1",
     "@babel/preset-env": "^7.12.7",
     "@babel/preset-typescript": "^7.12.7",
+    "@types/dotenv": "^8.2.0",
     "@types/express": "^4.17.9",
     "@types/node": "^14.14.10",
     "axios": "^0.21.0",
     "babel-loader": "^8.2.2",
+    "concurrently": "^5.3.0",
     "cross-env": "^7.0.3",
+    "dotenv": "^8.2.0",
     "express": "^4.17.1",
     "nodemon": "^2.0.6",
     "qs": "^6.9.4",

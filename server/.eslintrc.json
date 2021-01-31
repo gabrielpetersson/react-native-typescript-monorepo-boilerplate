@@ -9,6 +9,7 @@
     "plugin:prettier/recommended"
   ],
   "parserOptions": {
+    "tsconfigRootDir": "./server",
     "project": "./tsconfig.json",
     "ecmaVersion": 2020,
     "sourceType": "module"
